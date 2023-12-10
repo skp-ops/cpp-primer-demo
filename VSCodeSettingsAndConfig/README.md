@@ -74,6 +74,7 @@
 4. ererro lens
 5. Path Intellisense
 6. Markdown All in One
+7. Markdown Preview Mermaid Support
 
 #### 美化
 1. One Dark Pro

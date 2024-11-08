@@ -74,7 +74,7 @@
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "zig": "zig run",
-        # 删除运行cpp文件后生成的可执行文件
+        # 删除编译文件后生成的可执行文件
         "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt && del $fileNameWithoutExt $fileNameWithoutExt.exe",
         "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "php": "php",
@@ -136,6 +136,7 @@
 5. Path Intellisense
 6. Markdown All in One
 7. Markdown Preview Mermaid Support
+8. CMake
 
 #### 美化
 1. One Dark Pro
